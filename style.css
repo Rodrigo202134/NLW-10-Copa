@@ -27,6 +27,12 @@ body {
 body *{
   font-family: 'Roboto', sans-serif;
 }
+.img{
+height:400px;
+  display: block;
+  margin-inline:auto;
+  margin-top: 134px;
+}
 #app {
   
   width: fit-content;
