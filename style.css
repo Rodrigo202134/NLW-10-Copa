@@ -20,19 +20,24 @@ ul {
 body {
   background-color: #121214;
   background-image: var(--bg);
-  background-position:top center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;  
+  
 }
 body *{
   font-family: 'Roboto', sans-serif;
 }
+.text{
+  height: 180px;
+}
 .img{
-height:400px;
   display: block;
-  margin-inline:auto;
+  height:400px; 
+  margin-inline:auto; 
   margin-top: 134px;
 }
+
 #app {
   
   width: fit-content;
@@ -41,12 +46,14 @@ height:400px;
 }
 header{
   text-align: center;
-  margin-bottom: 63px;
+  margin-bottom: 83px;
 }
 #card{
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 42px;
+  margin: 95px ;
+  
 }
 .card {
   padding: 32px 23px;
@@ -54,6 +61,7 @@ header{
   background: var(--card-bg-color);
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
+  
 }
 .card h2{
 display: flex;
@@ -98,6 +106,7 @@ font-size: 36px;
 line-height: 125%;
 color: #E1E1E6;
 }
+
 .card h2:hover,
 .card ul li strong:hover,
 .card ul li img:hover{
@@ -126,7 +135,7 @@ color: #E1E1E6;
 }
 @media (min-width: 700px) {
 #card {
-  max-width: 670px;
+ 
   flex-direction: row;
   flex-wrap: wrap;
 }
